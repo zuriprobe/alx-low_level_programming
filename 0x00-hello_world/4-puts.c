@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 /**
-* main - function that can only be called in user context
-* Context: !in_interrupt()
-*
-* Prints a string
-* Example:
-*    main(0);
-*/
+ * main - Entry point
+ * 
+ * Description: 'Prints the exact string using the puts function'
+ * 
+ * Return: Always 0 (Success)
+ */
+
 
 int main(void)
 {	puts("\"Programming is like building a multilingual puzzle");
-	/*Return (0) to main*/
 	return (0);
 }
