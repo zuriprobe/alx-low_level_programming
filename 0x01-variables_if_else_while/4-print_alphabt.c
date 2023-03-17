@@ -7,9 +7,9 @@
  * Description: 'The program generates letters from A to Z'
  * Return: Always 0 (Success)
  */
+
 int main(void)
-{
-	char ch;
+{	char ch;
 	for (ch = 'A' ; ch <= 'Z' ; ch++)
 	{
 		if (tolower(ch) == 'e' || tolower(ch) == 'q')
