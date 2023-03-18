@@ -14,5 +14,6 @@ int main(void)
 	{	printf("%x", i);
 		i++;
 	}
+	printf("\n");
 	return (0);
 }
