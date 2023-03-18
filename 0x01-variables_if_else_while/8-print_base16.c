@@ -9,8 +9,10 @@
  */
 
 int main(void)
-{	for (int i = 0; i < 16; i++)
+{	int i;
+	while (i < 16)
 	{	printf("%x", i);
+		i++;
 	}
 	return (0);
 }
