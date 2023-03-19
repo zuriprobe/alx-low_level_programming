@@ -12,7 +12,8 @@ int main(void)
 {	int i;
 	int n  = 1;
 	while (i < 16)
-	{	if (i < 10)
+	{
+		if (i < 10)
 		{
 			putchar('0' + i);
 		}
