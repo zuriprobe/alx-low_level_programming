@@ -13,10 +13,12 @@ int main(void)
 	int n  = 1;
 	while (i < 16)
 	{	if (i < 10)
-		{	putchar('0' + i);
+		{
+			putchar('0' + i);
 		}
 		else if (i >= 10 && i <= 16)
-		{	putchar(tolower(64 + n );
+		{
+			putchar(tolower(64 + n));
 			n++;
 		}
 		i++;
