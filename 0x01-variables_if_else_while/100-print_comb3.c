@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int i = 0;
+	int i = 1;
 	int n  = ',';
 	int m = 10;
 	int counter = 2;
@@ -26,7 +26,7 @@ int main(void)
 		{	putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
 			if (i < 89)
-			{	putchar( n );
+			{	putchar(n);
 				putchar(' ');
 			}
 			i++;
