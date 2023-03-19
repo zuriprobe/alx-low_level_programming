@@ -11,7 +11,7 @@
 int main(void)
 {	int i;
 	int n  = 1;
-	while (i < 16)
+	while(i < 16)
 	{
 		if (i < 10)
 		{
