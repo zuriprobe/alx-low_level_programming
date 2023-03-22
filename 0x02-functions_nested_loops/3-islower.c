@@ -2,13 +2,15 @@
 #include <ctype.h>
 
 /**
- * int_islower: Entry point
+ * _islower: Entry point
  * Description: It checks if c is lower case or not
+ * @c: is a variable that gets checked
  * Return: 0 or 1
  */
 
 int _islower(int c)
-{	if (islower(c))
+{
+	if (islower(c))
 	{
 		return (1);
 	}
