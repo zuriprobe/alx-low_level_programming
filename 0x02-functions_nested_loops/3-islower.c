@@ -3,7 +3,8 @@
 
 /**
  * _islower: Entry point
- * Description: It checks if c is lower case or not
+ * Description: 'It checks if c is lower case or not'
+ *
  * @c: is a variable that gets checked
  * Return: 0 or 1
  */
