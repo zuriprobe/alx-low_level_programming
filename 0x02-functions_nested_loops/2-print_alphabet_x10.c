@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_alphabetx10(void)
+void print_alphabet_x10(void)
 {	char i = 'a';
 	int n = 0;
 
@@ -15,10 +15,10 @@ void print_alphabetx10(void)
 		i = 'a';
 		while (i <= 'z')
 		{
-			putchar(i);
+			_putchar(i);
 			i++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		n++;
 	}
 }
