@@ -3,14 +3,14 @@
 /**
  * print_sign - Entry point
  *
- * Description: 'The function checks if n is greater or less or equal to 0'
+ * Description: 'The function checks if n is greater or smaller or = to zero'
  * @n: is an integer variable
  *
  * Return 1 or 0 or -1
  */
 
 int print_sign(int n)
-{	
+{
 	if (n > 0)
 	{
 		_putchar('+');
