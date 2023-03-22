@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _isalpha: Entry point
+ * _isalpha - Entry point.
  *
  * Description: 'The function checks if input is lowercase or upppercase'
  * @c: Stores the alphabets
