@@ -2,9 +2,11 @@
 #include <ctype.h>
 
 /**
- * _islower: 'this is a prototype function that checks if value in c is lowercase'
+ * _islower - Entry point
+ *
  * Description: 'It checks if c is lower case or not'
- * @c: is a variable that gets checked
+ * @c: is an integer variable.
+ *
  * Return: 0 or 1
  */
 
