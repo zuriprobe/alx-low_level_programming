@@ -9,8 +9,14 @@
  * Return: integer
  */
 
-int _abs()
+int _abs(int n)
 {
-	int abs();
-	return (0);
+	if (n >= 0)
+	{
+		return (n);
+	}
+	else 
+	{
+		return(-1 * n);
+	}
 }
