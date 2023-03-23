@@ -3,7 +3,7 @@
 /**
  * print_last_digit - Entry point
  *
- * Description: 'Print last digit of a number'
+ * Description: 'Printing the last digit''
  * @n: Integer variable
  *
  * Return: Int value
@@ -11,16 +11,20 @@
 
 int print_last_digit(int n)
 {
-	if (n > 0)
+	int c;
+	if (n >= 0)
 	{
-		return (_putchar((n % 10) + '0'));
+		c = n % 10;
 	}
-	else if (n < 0)
+	if (n < 0)
 	{
-		return (_putchar((-n % 10) + '0'));
+		n = -n;
+		c = n % 10;
 	}
-	else
+	if (c < 0)
 	{
-		return (_putchar((n % 10) + '0'));
+		c = -c;
 	}
+	_putchar(c + '0');
+	return (c);
 }
