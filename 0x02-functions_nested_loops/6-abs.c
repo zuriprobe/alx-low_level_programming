@@ -5,6 +5,7 @@
  * _abs - Entry point
  *
  * Description: 'The function calculates the absolute value of integer'
+ * @n: Integer variable
  *
  * Return: integer
  */
@@ -15,8 +16,8 @@ int _abs(int n)
 	{
 		return (n);
 	}
-	else 
+	else
 	{
-		return(-1 * n);
+		return (-1 * n);
 	}
 }
