@@ -6,11 +6,11 @@
  *
  * Description: 'The function calculates the absolute value of integer'
  *
- * Return: int
+ * Return: integer
  */
 
-int _abs(int x)
+int _abs()
 {
-	int abs(int x);
+	int abs();
 	return (0);
 }
