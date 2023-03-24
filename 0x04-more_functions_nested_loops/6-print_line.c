@@ -3,10 +3,10 @@
 /**
  * print_line - Entry point
  *
- * Description: 'Printing a line'
+ * Description: 'Printing a line using putchar'
  * @n: Integer variable
  *
- * Return void
+ * Return: void
  */
 
 void print_line(int n)
@@ -17,7 +17,7 @@ void print_line(int n)
 
 	while (i < n)
 	{
-		if (n == 0)
+		if (n == 0 && n < 0)
 		{
 			break;
 		}
