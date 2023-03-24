@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_more_numbers - Entry point
+ * more_numbers - Entry point
  *
  * Description: 'Print numbers from 0 to 14'
  *
@@ -12,29 +12,21 @@
 void more_numbers(void)
 {	
 	int i;
-	int r = 0;
 	int j = 0;
-	
+
 	while (j < 10)
 	{
 		i = 0;
-		r = 0;
 		while (i < 15)
 		{
-			if (i <= 9)
+			if (i > 9)
 			{
-				putchar((i%10) + 48);
-				i++;
+				_putchar('1');
 			}
-			else
-			{
-				putchar((i/10) + 48);
-				putchar((r%10) + 48);
-				i++;
-				r++;
-			}
+			_putchar((i % 10) + 48);
+			i++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		j++;
 	}
 }
