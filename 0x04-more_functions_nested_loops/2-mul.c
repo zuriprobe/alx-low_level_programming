@@ -1,13 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * mul - Entry point
  *
  * Description: 'Multiplies the two parameters'
- * @a and @b: Integer variables
+ * @a: Integer variables
  *
- * Return: 0
+ * Return: c
  */
 
 int mul(int a, int b)
