@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_line - Entry point
@@ -11,10 +12,18 @@
 
 void print_line(int n)
 {
-	while (n > 0)
+	int i;
+
+	if (n > 0)
 	{
-		_putchar('-');
-		n--;
+		for (i = 0; i < n; i++)
+		{
+			_putchar('-');
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
+	else if (n <= 0)
+	{
+		_putchar('\n');
+	}
 }
