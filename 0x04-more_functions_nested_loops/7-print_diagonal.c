@@ -7,7 +7,7 @@
  * Description: 'Printing a diagonal of slashes'
  * @n: Integer variable
  *
- * Return void
+ * Return: void
  */
 
 void print_diagonal(int n)
