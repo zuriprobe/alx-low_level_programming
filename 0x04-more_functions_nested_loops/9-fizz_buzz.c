@@ -13,37 +13,27 @@ int main(void)
 {
 	int i;
 
-	char multiple_of_3[] = "Fizz";
-	char multiple_of_5[] = "Buzz";
-	char multiple_of_both[] = "FizzBuzz";
-
-	i = 1;
-
-	while (i < 100)
+	for (i = 1; i <= 100; i++)
 	{
-		if ((i % 3) != 0)
+		if (i % 15 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if ((i % 3) == 0)
+		{
+			printf("Fizz");
+		}
+		else if ((i % 5) == 0)
+		{
+			printf("Buzz");
+		}
+		else
 		{
 			printf("%i", i);
-			putchar(' ');
-			i++;
 		}
-		if (((i % 3) == 0) && ((i % 5) == 0))
+		if (i < 100)
 		{
-			printf("%s", multiple_of_both);
-			putchar(' ');
-			i++;
-		}
-		if ((i % 3) == 0)
-		{
-			printf("%s", multiple_of_3);
-			putchar(' ');
-			i++;
-		}
-		if ((i % 5) == 0)
-		{
-			printf("%s", multiple_of_5);
-			putchar(' ');
-			i++;
+			printf(" ");
 		}
 	}
 	putchar('\n');
