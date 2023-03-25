@@ -7,7 +7,7 @@
  * Description: 'Printing a triangle'
  * @size: Integer variable
  *
- * Return void
+ * Return: void
  */
 
 void print_triangle(int size)
@@ -20,7 +20,7 @@ void print_triangle(int size)
 	}
 	for (i = 1; i <= size; i++)
 	{
-		for (j = size; j >= i; j--)
+		for (j = i; j <= size; j++)
 		{
 			_putchar(' ');
 		}
