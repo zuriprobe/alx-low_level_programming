@@ -14,6 +14,10 @@ void print_triangle(int size)
 {
 	int i, j, n;
 
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
 	for (i = 1; i <= size; i++)
 	{
 		for (j = size; j >= i; j--)
@@ -24,10 +28,6 @@ void print_triangle(int size)
 		{
 			_putchar('#');
 		}
-		_putchar('\n');
-	}
-	if (size <= 0)
-	{
 		_putchar('\n');
 	}
 }
