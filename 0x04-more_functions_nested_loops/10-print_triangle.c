@@ -1,0 +1,33 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * print_triangle - Entry point
+ *
+ * Description: 'Printing a triangle'
+ * @size: Integer variable
+ *
+ * Return void
+ */
+
+void print_triangle(int size)
+{
+	int i, j, n;
+
+	for (i = 1; i <= size; i++)
+	{
+		for (j = size; j >= i; j--)
+		{
+			_putchar(' ');
+		}
+		for (n = 1; n <= i; n++)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
+	}
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
+}
