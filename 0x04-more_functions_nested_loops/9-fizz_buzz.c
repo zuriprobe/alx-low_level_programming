@@ -9,7 +9,7 @@
  * Return: void
  */
 
-int main()
+int main(void)
 {
 	int i;
 
@@ -46,5 +46,6 @@ int main()
 			i++;
 		}
 	}
+	putchar('\n');
 	return (0);
 }
