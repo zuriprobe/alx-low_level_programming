@@ -13,7 +13,7 @@
 void print_rev(char *s)
 {
 	int count;
-	long int i;
+	int i;
 
 	count = 0;
 	while (*s != '\0')
@@ -21,9 +21,11 @@ void print_rev(char *s)
 		count++;
 		s++;
 	}
-	for (i = 0; i <= count; i++)
+	s--;
+
+	for (i = count; i > 0; i--)
 	{
-		_putchar(s[-i]);
+		_putchar(*s);
 	}
 	_putchar('\n');
 }
