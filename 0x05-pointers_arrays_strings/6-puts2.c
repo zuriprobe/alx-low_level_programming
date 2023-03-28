@@ -16,7 +16,7 @@ void puts2(char *str)
 {
 	int i;
 	int length = strlen(str);
-	
+
 	if (length < 15)
 	{
 		for (i = 0; i < length / 2; i++)
