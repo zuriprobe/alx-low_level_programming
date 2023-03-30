@@ -6,24 +6,24 @@
  * _strcpy - Entry point
  *
  * Description: 'Copying a string'
- * @dest: Destination variable
- * @src: String variable
+ * @dest: variable
+ * @src: variable
  * Return: 0
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	int length;
+	int i = 0;
+	int x;
 
-	length = strlen(src);
-
-	if (length <= 98)
+	while (*(src + i) != '\n')
 	{
-		strcpy(dest, src);
-		return (dest);
+		i++;
 	}
-	else
+	for (x = 0; x < i; x++)
 	{
-		return (0);
+		dest[x] = src[x];
 	}
+	dest[i] = '\n';
+	return (dest);
 }
