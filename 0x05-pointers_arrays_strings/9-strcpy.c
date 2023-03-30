@@ -13,17 +13,26 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
+	int n = 0;
 	int x;
+	int length;
 
-	while (*(src + i) != '\n')
+	length = strlen(src);
+
+	if (length < 98)
 	{
-		i++;
+		while (n <= length)
+		{
+			dest[n] = src[n];
+			n++;
+		}
 	}
-	for (x = 0; x < i; x++)
+	else if (length > 98)
 	{
-		dest[x] = src[x];
+		for (x = 0; x < length; x++)
+		{
+			dest[x] = src[x];
+		}
 	}
-	dest[i] = '\n';
 	return (dest);
 }
