@@ -1,6 +1,15 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h> 
+#include <string.h>
+
+/**
+ * _strncpy - Entry point
+ * Description: 'Copying strings'
+ * @dest: variable
+ * @src: variable
+ * @n: variable
+ * Return: 0
+ */
 
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -10,5 +19,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 	for ( ; i < n; i++)
 		dest[i] = '\0';
-	return dest;
+	return (dest);
 }
