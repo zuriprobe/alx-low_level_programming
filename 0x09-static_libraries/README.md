@@ -1,1 +1,1 @@
-The world of static and dynamic libraries
+Script will create a lib
