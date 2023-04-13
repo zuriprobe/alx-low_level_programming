@@ -1,1 +1,1 @@
-Script will create a lib
+Creating a static lib using bash
