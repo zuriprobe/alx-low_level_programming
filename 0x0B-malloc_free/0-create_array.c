@@ -11,22 +11,22 @@
 
 char *create_array(unsigned int size, char c)
 {
+	char *buffer;
+	unsigned int i;
+
 	if (size == 0)
 	{
 		return (NULL);
 	}
 
-	char *buffer = (char *)malloc(size * sizeof(char));
+	buffer = (char *)malloc(size * sizeof(char));
 
 	if (buffer == NULL)
 	{
 		return (NULL);
 	}
 
-	unsigned int i;
-
-	i = 0;
-	for (; i < size; i++)
+	for (i = 0; i < size; i++)
 	{
 		buffer[i] = c;
 	}
