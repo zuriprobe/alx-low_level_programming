@@ -5,7 +5,7 @@
 
 /**
  * add_nodeint - Adding a new node at the beginning of the list
- * head - head of the linked list
+ * @head: linked list
  * @n: Input
  *
  * Return: list.
